@@ -3,22 +3,17 @@ Knoldus ScalaJs_Weather_Report
 
 Weather Information System- Get the mood of your city on one click  This is simple project using Scala.js.
 
-![weather](images/weather.png)
+![weather](server/public/images/weather.png)
 
 
 *************************************************************************************************************
 ###Getting Started with Code  : 
 
-## IDE integration
-
-`$ sbt eclipse`
-
 ## Run the application
+Prerequisite : Java 8 and Later version 
 
-To run this application, we need to generate JavaScript file out of our compiled code. There are two ways to generate JavaScript: ` fastOptJS` or ` fullOptJS`
 ```shell
-$ sbt
-> fullOptJS
+$ sbt  run
 ```
-    
+    Go to browser and run http://localhost:9000
 
